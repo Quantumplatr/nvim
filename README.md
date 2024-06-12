@@ -5,7 +5,7 @@
 Based off of the starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
 Refer to the [documentation](https://lazyvim.github.io/installation) to get started from there.
 
-My config handles some of the following:
+My config handles the following & a bit more:
 - Color schemes
 - LazyExtras (plugins)
 - Mason Installs (e.g. LSPs)
