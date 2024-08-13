@@ -41,11 +41,19 @@ return {
     },
   },
 
+  -- Eldritch
+  {
+    "eldritch-theme/eldritch.nvim",
+    lazy = false,
+    priority = 1000,
+    opts = {},
+  },
+
   -- Configure LazyVim to load specified colorscheme
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "tokyonight",
+      colorscheme = "eldritch",
     },
   },
 }
