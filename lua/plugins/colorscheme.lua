@@ -36,8 +36,10 @@ return {
   -- Nightfox
   {
     "EdenEast/nightfox.nvim",
+    lazy = false,
+    priority = 1000,
     opts = {
-      -- fox = "nord",
+      fox = "tera",
     },
   },
 
@@ -47,7 +49,7 @@ return {
     lazy = false,
     priority = 1000,
     opts = {
-      transparent = true,
+      -- transparent = true,
     },
   },
 
@@ -55,7 +57,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "eldritch",
+      colorscheme = "terafox",
     },
   },
 }
