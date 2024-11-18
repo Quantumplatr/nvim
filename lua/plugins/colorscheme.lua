@@ -39,7 +39,11 @@ return {
     lazy = false,
     priority = 1000,
     opts = {
-      fox = "tera",
+      palettes = {
+        terafox = {
+          -- bg1 = "#102529",
+        },
+      },
     },
   },
 
