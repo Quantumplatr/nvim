@@ -13,7 +13,7 @@
   "eldritch.nvim": { "branch": "master", "commit": "dbfbaedfdf7b3d40050015fc16dca6aedc97d756" },
   "flash.nvim": { "branch": "main", "commit": "34c7be146a91fec3555c33fe89c7d643f6ef5cf1" },
   "friendly-snippets": { "branch": "main", "commit": "efff286dd74c22f731cdec26a70b46e5b203c619" },
-  "fzf-lua": { "branch": "main", "commit": "1ff10525d21657ad216a26730310820be06027fa" },
+  "fzf-lua": { "branch": "main", "commit": "3d7e5db8fa56cfc2b92a38999016a51abe9e1d23" },
   "git-blame.nvim": { "branch": "master", "commit": "2883a7460f611c2705b23f12d58d398d5ce6ec00" },
   "gitsigns.nvim": { "branch": "main", "commit": "b544bd62623ca1b483d8b9bfb6d65805f112a320" },
   "grug-far.nvim": { "branch": "main", "commit": "08f32182335754abf461dfb77b2c4e24bfe4d614" },
