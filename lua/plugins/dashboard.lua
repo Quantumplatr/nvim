@@ -33,7 +33,7 @@ return {
             title = "Git Status",
             section = "terminal",
             -- enabled = Snacks.git.get_root() ~= nil, TODO: figure out why this breaks
-            cmd = "hub status --short --branch --renames",
+            cmd = "git status --short --branch --renames",
             height = 5,
             padding = 1,
             ttl = 5 * 60,
