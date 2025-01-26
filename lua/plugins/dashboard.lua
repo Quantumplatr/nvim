@@ -1,5 +1,14 @@
 -- Ref: https://github.com/folke/snacks.nvim/blob/main/docs/dashboard.md
 
+-- Header text is ASCII art generated from https://patorjk.com/software/taag/#p=display&t=eefvim
+-- Fonts I've liked so far for it:
+-- - Shaded Blocky
+-- - ANSI Shadow
+-- - Bloody
+-- - Larry 3D
+-- - NScript
+-- - Stop
+
 return {
   {
     "folke/snacks.nvim",
@@ -9,13 +18,12 @@ return {
       dashboard = {
         preset = {
           header = [[
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-░        ░░        ░░        ░░  ░░░░  ░░        ░░  ░░░░  ░
-▒  ▒▒▒▒▒▒▒▒  ▒▒▒▒▒▒▒▒  ▒▒▒▒▒▒▒▒  ▒▒▒▒  ▒▒▒▒▒  ▒▒▒▒▒   ▒▒   ▒
-▓      ▓▓▓▓      ▓▓▓▓      ▓▓▓▓▓  ▓▓  ▓▓▓▓▓▓  ▓▓▓▓▓        ▓
-█  ████████  ████████  ██████████    ███████  █████  █  █  █
-█        ██        ██  ███████████  █████        ██  ████  █
-████████████████████████████████████████████████████████████
+             ___       _       
+            / __)     (_)      
+  ____ ____| |__ _   _ _ ____  
+ / _  ) _  )  __) | | | |    \ 
+( (/ ( (/ /| |   \ V /| | | | |
+ \____)____)_|    \_/ |_|_|_|_|
 ]],
         },
         sections = {
