@@ -12,6 +12,11 @@ My config handles the following & a bit more:
 - Mason Installs (e.g. LSPs)
 - Tailwind config
 
+## Preview
+![dashboard](https://github.com/user-attachments/assets/634b145b-e80d-4721-b491-944d1f3aec71)
+![editing](https://github.com/user-attachments/assets/a3385631-2edb-414d-9527-d4f1743b6170)
+
+
 ## Installation
 
 > Note: This is altered from the LazyVim starter docs.
