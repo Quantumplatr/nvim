@@ -35,8 +35,38 @@ return {
           { icon = " ", title = "Recent Files", section = "recent_files", indent = 2, padding = 1 },
           -- Projects
           { icon = " ", title = "Projects", section = "projects", indent = 2, padding = 1 },
+
           -- Git
           {
+            pane = 2,
+            title = "Open Issues",
+            section = "terminal",
+            cmd = 'gh issue list -L 3 --assignee "@me"',
+            key = "i",
+            action = function()
+              vim.fn.jobstart("gh issue list --web", { detach = true })
+            end,
+            icon = " ",
+            height = 7,
+            padding = 1,
+            indent = 3,
+          },
+          {
+            pane = 2,
+            icon = " ",
+            section = "terminal",
+            title = "Open PRs",
+            cmd = 'gh pr list -L 3 --assignee "@me"',
+            key = "p",
+            action = function()
+              vim.fn.jobstart("gh pr list --web", { detach = true })
+            end,
+            height = 7,
+            padding = 1,
+            indent = 3,
+          },
+          {
+            pane = 2,
             icon = "",
             title = "Git Status",
             section = "terminal",
@@ -48,7 +78,9 @@ return {
             indent = 3,
           },
           -- Startup
-          { section = "startup" },
+          {
+            section = "startup",
+          },
         },
       },
     },
