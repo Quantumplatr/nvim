@@ -46,7 +46,7 @@ return {
             pane = 2,
             -- title = "Date",
             section = "terminal",
-            cmd = "date +'%a %b %d' | figlet -t -c -f bulbhead",
+            cmd = "date +'%a %b %d' | figlet -t -c -f pagga | lolcat",
             height = 7,
             padding = 0,
           },
