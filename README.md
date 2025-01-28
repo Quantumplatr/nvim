@@ -43,7 +43,7 @@ To install on linux:
 ```bash
 cd ~/.local/share/fonts
 curl -O http://www.figlet.org/fonts/bubblehead.flf
-cp ~/.local/share/fonts/bubblehead.flf /usr/share/figlet/bubblehead.flf
+sudo cp ~/.local/share/fonts/bubblehead.flf /usr/share/figlet/bubblehead.flf
 ```
 
 #### fzf
@@ -59,7 +59,7 @@ sudo apt install fzf
 Ubuntu based systems:
 
 ```bash
-brew instnall gh
+brew install gh
 ```
 
 #### ripgrep
