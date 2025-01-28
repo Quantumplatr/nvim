@@ -13,17 +13,62 @@ My config handles the following & a bit more:
 - Tailwind config
 
 ## Preview
+
 ![dashboard](https://github.com/user-attachments/assets/634b145b-e80d-4721-b491-944d1f3aec71)
 ![editing](https://github.com/user-attachments/assets/a3385631-2edb-414d-9527-d4f1743b6170)
 
-
 ## Installation
 
-> Note: This is altered from the LazyVim starter docs.
+> Note: Some of this is altered from the LazyVim starter docs.
 >
 > Also: To be quite honest, I haven't tested a fresh install with this repo.
 > you might need to run a lazy install to install everything once you open
 > Neovim: `<leader>lI`
+
+### Requirements
+
+#### figlet
+
+Figlet is used to fancily display the date in the dashboard.
+
+Ubuntu based systems:
+
+```bash
+sudo apt install figlet
+```
+
+This also uses the [bubblehead](http://www.figlet.org/fontdb_example.cgi?font=bulbhead.flf) font.
+To install on linux:
+
+```bash
+cd ~/.local/share/fonts
+curl -O http://www.figlet.org/fonts/bubblehead.flf
+cp ~/.local/share/fonts/bubblehead.flf /usr/share/figlet/bubblehead.flf
+```
+
+#### fzf
+
+Ubuntu based systems:
+
+```bash
+sudo apt install fzf
+```
+
+#### gh
+
+Ubuntu based systems:
+
+```bash
+brew instnall gh
+```
+
+#### ripgrep
+
+Ubuntu based systems:
+
+```bash
+sudo apt install ripgrep
+```
 
 ### Linux/MacOS
 
