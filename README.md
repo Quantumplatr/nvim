@@ -1,5 +1,23 @@
 # EefVim
 
+## Table of Contents
+
+<!-- mtoc-start -->
+
+* [Description](#description)
+* [Preview](#preview)
+* [Installation](#installation)
+  * [Requirements](#requirements)
+    * [figlet](#figlet)
+    * [fzf](#fzf)
+    * [gh](#gh)
+    * [lolcat](#lolcat)
+    * [ripgrep](#ripgrep)
+  * [Linux/MacOS](#linuxmacos)
+  * [Windows](#windows)
+
+<!-- mtoc-end -->
+
 ## Description
 
 Based off of the starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
@@ -29,7 +47,7 @@ My config handles the following & a bit more:
 
 #### figlet
 
-Figlet is used to fancily display the date in the dashboard.
+figlet is used to fancily display the date in the dashboard.
 
 Ubuntu based systems:
 
@@ -37,7 +55,8 @@ Ubuntu based systems:
 sudo apt install figlet
 ```
 
-This also uses the [bubblehead](http://www.figlet.org/fontdb_example.cgi?font=bulbhead.flf) font.
+To use more fonts like [bulbhead](http://www.figlet.org/fontdb_example.cgi?font=bulbhead.flf),
+download them to `/usr/share/figlet/`.
 To install on linux:
 
 ```bash
@@ -46,7 +65,16 @@ curl -O http://www.figlet.org/fonts/bubblehead.flf
 sudo cp ~/.local/share/fonts/bubblehead.flf /usr/share/figlet/bubblehead.flf
 ```
 
+To adjust the dashboard to use the new font, change the relevant commands to use
+the new font. For example, the date command in the dashboard could be:
+
+```bash
+date -I | figlet -f bubblehead | lolcat
+```
+
 #### fzf
+
+fzf is used heavily for searching files, buffers, and more.
 
 Ubuntu based systems:
 
@@ -56,13 +84,27 @@ sudo apt install fzf
 
 #### gh
 
+The GitHub CLI is used in the dashboard to display things like PRs and issues.
+
 Ubuntu based systems:
 
 ```bash
 brew install gh
 ```
 
+#### lolcat
+
+lolcat colors text. This is used in the dashboard to color the date.
+
+Ubuntu based systems:
+
+```bash
+sudo apt install lolcat
+```
+
 #### ripgrep
+
+ripgrep is used for searching.
 
 Ubuntu based systems:
 
