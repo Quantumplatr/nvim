@@ -36,6 +36,20 @@ return {
           -- Projects
           { icon = " ", title = "Projects", section = "projects", indent = 2, padding = 1 },
 
+          -- Date
+          {
+            pane = 2,
+            text = { { "\n" } },
+            height = 0,
+          },
+          {
+            pane = 2,
+            -- title = "Date",
+            section = "terminal",
+            cmd = "date -I | figlet -t -c -f bulbhead",
+            height = 7,
+            padding = 0,
+          },
           -- Git
           {
             pane = 2,
@@ -70,7 +84,7 @@ return {
             icon = "",
             title = "Git Status",
             section = "terminal",
-            -- enabled = Snacks.git.get_root() ~= nil, TODO: figure out why this breaks
+            -- enabled = Snacks.git.get_root() ~= nil, -- TODO: figure out why this breaks
             cmd = "git status --short --branch --renames",
             height = 5,
             padding = 1,
