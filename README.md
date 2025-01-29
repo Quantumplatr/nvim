@@ -13,6 +13,7 @@
     * [gh](#gh)
     * [lolcat](#lolcat)
     * [ripgrep](#ripgrep)
+    * [toilet-fonts](#toilet-fonts)
   * [Linux/MacOS](#linuxmacos)
   * [Windows](#windows)
 
@@ -110,6 +111,14 @@ Ubuntu based systems:
 
 ```bash
 sudo apt install ripgrep
+```
+
+#### toilet-fonts
+
+toilet-fonts is used to get `pagga` which is used in the dashboard.
+
+```bash
+sudo apt install toilet-fonts
 ```
 
 ### Linux/MacOS
