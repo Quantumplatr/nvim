@@ -11,6 +11,7 @@
     * [figlet](#figlet)
     * [fzf](#fzf)
     * [gh](#gh)
+    * [lazygit](#lazygit)
     * [lolcat](#lolcat)
     * [ripgrep](#ripgrep)
     * [toilet-fonts](#toilet-fonts)
@@ -91,6 +92,14 @@ Ubuntu based systems:
 
 ```bash
 brew install gh
+```
+
+#### lazygit
+
+Lazygit is used as the git in my neovim setup.
+
+```bash
+brew install lazygit
 ```
 
 #### lolcat
