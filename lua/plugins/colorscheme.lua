@@ -39,6 +39,9 @@ return {
     lazy = false,
     priority = 1000,
     opts = {
+      options = {
+        transparent = true,
+      },
       palettes = {
         terafox = {
           -- bg1 = "#102529",
