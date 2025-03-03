@@ -1,4 +1,7 @@
 return {
   -- Tetris Game
-  { "alec-gibson/nvim-tetris" },
+  {
+    "alec-gibson/nvim-tetris",
+    lazy = true,
+  },
 }
