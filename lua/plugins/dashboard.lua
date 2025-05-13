@@ -47,7 +47,7 @@ return {
             -- title = "Date",
             section = "terminal",
             -- cmd = "date +'%a %b %d' | figlet -t -c -f pagga",
-            cmd = "date +'%a %b %d' | figlet -t -c -f pagga | dotacat",
+            cmd = "date +'%a %b %d' | toilet -t -f pagga | dotacat",
             -- cmd = "date +'%a %b %d' | figlet -t -c -f pagga | lolcat",
             height = 7,
             padding = 0,
