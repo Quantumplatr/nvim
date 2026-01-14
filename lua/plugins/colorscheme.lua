@@ -3,7 +3,7 @@ return {
   {
     "folke/tokyonight.nvim",
     opts = {
-      transparent = true,
+      -- transparent = true,
       style = "night",
       on_highlights = function(hl, c)
         -- Window border
@@ -36,8 +36,8 @@ return {
   -- Nightfox
   {
     "EdenEast/nightfox.nvim",
-    lazy = false,
-    priority = 1000,
+    -- lazy = false,
+    -- priority = 1000,
     opts = {
       options = {
         transparent = true,
@@ -53,10 +53,24 @@ return {
   -- Eldritch
   {
     "eldritch-theme/eldritch.nvim",
-    priority = 1000,
+    -- priority = 1000,
     opts = {
       -- transparent = true,
     },
+  },
+
+  -- Rose Pine
+  {
+    "rose-pine/neovim",
+    name = "rose-pine",
+    config = function()
+      vim.cmd("colorscheme rose-pine")
+    end,
+  },
+
+  -- Kanagawa
+  {
+    "rebelot/kanagawa.nvim",
   },
 
   -- Configure LazyVim to load specified colorscheme
