@@ -15,6 +15,14 @@ return {
     },
   },
 
+  -- EverForest
+  {
+    "neanias/everforest-nvim",
+    version = false,
+    lazy = false,
+    priority = 1000,
+  },
+
   -- One Dark
   {
     "navarasu/onedark.nvim",
@@ -36,11 +44,11 @@ return {
   -- Nightfox
   {
     "EdenEast/nightfox.nvim",
-    -- lazy = false,
-    -- priority = 1000,
+    lazy = false,
+    priority = 1000,
     opts = {
       options = {
-        transparent = true,
+        -- transparent = true,
       },
       palettes = {
         terafox = {
@@ -66,6 +74,12 @@ return {
     config = function()
       vim.cmd("colorscheme rose-pine")
     end,
+  },
+
+  -- Gruvbox
+  {
+    "ellisonleao/gruvbox.nvim",
+    config = true,
   },
 
   -- Kanagawa
