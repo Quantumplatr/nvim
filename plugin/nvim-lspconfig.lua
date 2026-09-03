@@ -3,4 +3,4 @@ vim.pack.add({{
 }})
 vim.lsp.enable({ 'lua_ls' })
 vim.lsp.enable({ 'rust_analyzer' })
-vim.lsp.enalbe({ 'roslyn_ls' }) -- C#
+vim.lsp.enable({ 'roslyn_ls' }) -- C#
